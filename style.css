@@ -1,0 +1,105 @@
+*{
+    text-align: center;
+    background-color: #1A120B;
+    color: #F8EDE3;
+   
+}
+
+
+.main-container{
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.titulo{
+    font-size: 10rem;
+    font-family: "Anybodyt", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    margin: 0%;
+}
+
+.titulo:hover{ 
+    color: #999B84;
+    font-size: 12rem;
+} 
+
+.subtitulo{
+   font-size: 1.2rem;
+    margin: 0%;
+   font-family: "Montserrat", sans-serif;
+   font-weight: 100;
+}
+
+.nav-list > li{
+    list-style-type: none;
+
+}
+
+.nav-list{
+   font-size: 2rem; 
+   display: flex ;
+ gap: 20%;
+ justify-content: center;
+ font-family: "Montserrat", sans-serif;
+ font-weight: 600;
+
+}
+
+video{
+    width: 75%;
+    height: 100vh;
+    margin-top: 100px;
+    
+}
+ 
+.video-home{
+  display: grid;
+  grid-column: 2 / 6 ;
+}
+
+.piedepagina{
+    font-size: 0.75rem;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 100;
+}
+
+.trademark{
+    font-family: "Anybodyt", sans-serif;
+    font-weight: 100;
+    font-size: 0.5rem;
+}
+
+
+
+/** responsive web */
+
+@media  (max-width:620px) 
+{
+.titulo {
+    font-size: 5rem;
+}
+
+.titulo:hover{
+    font-size: 7rem;
+}
+
+.subtitulo{
+    font-size: 0.60rem;
+}
+
+.nav-list{
+    font-size: 1rem;
+}
+
+.video{
+   height: 200px;
+}
+}
