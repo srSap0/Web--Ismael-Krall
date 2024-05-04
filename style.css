@@ -97,9 +97,9 @@ video{
 
 .nav-list{
     font-size: 1rem;
+    display: flex;
+    justify-content: start;
 }
 
-.video{
-   height: 200px;
-}
+
 }
